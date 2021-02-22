@@ -1,0 +1,16 @@
+[ 
+    { 
+      "nombre":"Ionic",
+      "foto": "ionic.png",
+      "descripcion":"sadagfda",
+      "caracteristicas":[
+          {"Instalar": "prueba"},
+          {"Materiales": ""}
+      ]
+
+    },
+    {
+      "nombre":"Phostoshop",
+      "foto": "ps.png"
+    }
+  ]

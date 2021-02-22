@@ -1,0 +1,95 @@
+@media (min-width: 0px) and (max-width: 770px){
+    .titulo{
+        padding-top: 50px;
+        text-align: center;
+        font-size: 5vw;
+        color: blanchedalmond;
+        font-family: 'Handlee', cursive;
+        font-weight: bold;
+    }
+    .caja{
+        display: flex;
+        flex-direction: column;
+        min-height: 450px;
+        padding-top: 50px;
+    }
+    .caja2{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        max-width: 60%;
+        align-items: center;
+    }
+    .caja3{
+        height: 380px;
+        padding: 50px;
+    }
+    h1{
+        font-family: Libre Franklin;
+        font-weight: bolder;
+        font-size: 3.6vw;
+        text-align: justify;
+        color:  rgb(226, 226, 226);
+        text-align: center;
+    }
+    h2{
+        font-size: 3.6vw;
+        color: rgb(189, 189, 189);
+        text-align: justify;
+        font-family: Libre Franklin;
+    }
+    p{
+        font-size: 3.6vw;
+        color: rgb(189, 189, 189);
+        text-align: justify;
+        font-family: Libre Franklin;
+    }
+}
+@media (min-width: 771px){
+    .titulo{
+        text-align: center;
+        font-size: 3.5vw;
+        color: blanchedalmond;
+        font-family: 'Handlee', cursive;
+        font-weight: bold;
+    }
+    .caja{
+        width: 100%;
+        height: 1090px;
+        display: flex;
+        flex-flow: row;
+        background-color: black;
+        padding: 5%;
+    }
+    img{
+        width: 30vw;
+    }
+    .caja2{
+        width: 95%;
+        padding: 75px;
+    }
+    .caja3{
+        padding-top: 20%;
+        letter-spacing: 1px;
+    }
+    h1{
+        font-family: Libre Franklin;
+        font-weight: bolder;
+        font-size: 2vw;
+        text-align: justify;
+        color:  rgb(226, 226, 226);
+    }
+    h2{
+        font-family: Libre Franklin;
+        font-size: 1.5vw;
+        text-align: justify;
+        color: rgb(141, 141, 141);
+    }
+    p{
+        font-family: Libre Franklin;
+        font-size: 1.5vw;
+        text-align: justify;
+        color: rgb(143, 143, 143);
+    }
+}

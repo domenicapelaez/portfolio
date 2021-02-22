@@ -1,0 +1,137 @@
+@media (min-width: 0px) and (max-width: 770px){
+  .contenedor{
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titulo {
+    color: white;
+    text-align: center;
+  }
+  .titulo h1{
+    font-size: 3.8vw;
+    font-family: Coming Soon;
+    font-weight: bold;
+  }
+  .caja{
+    width: 67%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+  }
+  .caja2{
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: red;
+  }
+  .caja2:hover{
+    box-shadow: red;
+  }
+  .caja2 h1{
+    color: rgb(209, 206, 206);
+    font-weight: bold;
+    font-size: 2.9vw;
+    font-family: Mallanna;
+  }
+  .caja2 h2{
+    color: rgb(136, 136, 136);
+    font-size: 2.9vw;
+    font-family: Mallanna;
+  }
+  .caja2 .icon{
+    color: rgb(180, 64, 128);
+    font-size: 3.3vw;
+    background-color: black;
+    border-radius: 5px;
+    width: 40px;
+	  margin: 0 auto;
+	  margin-bottom: 10px;
+  }
+  .btn{
+    background-color: black;
+    color: rgb(240, 75, 141);
+    font-size: 3vw;
+    font-family: Mallanna;
+  }
+}
+
+@media (min-width: 771px){
+  .contenedor{
+    background-color: black;
+    width: 100%;
+    height: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titulo {
+    color: white;
+    text-align: center;
+  }
+  .titulo h1{
+    font-size: 2vw;
+    font-family: Coming Soon;
+    font-weight: bold;
+  }
+  .caja{
+    width: 90%;
+    display: flex;
+  }
+  .caja2{
+    background-color: rgb(26, 26, 26);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: red;
+  }
+  .caja2:hover{
+    box-shadow: red;
+  }
+  .caja2 h1{
+    color: rgb(209, 206, 206);
+    font-weight: bold;
+    font-size: 1.7vw;
+    font-family: Mallanna;
+  }
+  .caja2 h2{
+    color: rgb(136, 136, 136);
+    font-size: 1.5vw;
+    font-family: Mallanna;
+  }
+  .caja2 .icon{
+    color: rgb(180, 64, 128);
+    font-size: 1.9vw;
+    background-color: black;
+    border-radius: 10px;
+    width: 50px;
+	  margin: 0 auto;
+	  margin-bottom: 10px;
+  }
+  .btn{
+    background-color: black;
+    color: rgb(240, 75, 141);
+    font-family: Mallanna;
+  }
+}

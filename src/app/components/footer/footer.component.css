@@ -1,0 +1,92 @@
+@media (min-width: 0px) and (max-width: 770px){
+    .caja{
+        height: 280px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+    .caja2 ul{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .caja2 a{
+        font-size: 6vw;
+        letter-spacing: 25px;
+        color: pink;
+    }
+    .res{
+        font-size: 4vw;
+        color: rgb(145, 9, 9);
+    }
+    .made{
+        font-size: 4vw;
+        color: white;
+    }
+}
+
+@media (min-width: 771px){
+    .caja{
+        max-width: 100%;
+        min-height: 110px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: black;
+    }
+    .caja2 {
+        max-width: 100%;
+        min-height: 100%;
+    }
+    .caja2 ul{
+        min-width: 400px;
+        min-height: 100%;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+    }
+    .caja2 ul li{
+        list-style: none;
+    }
+    .caja2 i{
+        background: rgb(255, 230, 230);
+        color: #96417f;
+        font-size: 2.6vw;
+        padding: 5px;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 9vw;
+    }
+    .caja2 i:hover{
+        background-color: #F3EEEB;
+        transition: 0.3s;
+    }
+    .caja3 {
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .res{
+        font-family: Libre Franklin;
+        font-weight: bold;
+        font-size: 1.2vw;
+        letter-spacing: 2pt;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    .made{
+        font-family: Libre Franklin;
+        font-weight: bold;
+        font-size: 1.2vw;
+        letter-spacing: 2pt;
+        text-align: center;
+        color: rgb(145, 9, 9);
+    }
+}
